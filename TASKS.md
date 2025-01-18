@@ -19,8 +19,9 @@
 12.2 Проверим, что в файле конфигурации сборщика Gradle settings.gradle.kts
      появилась строка с описанием включения этого модуля в проект include(":jokes").
 12.3 Добавим описание зависимости implementation(project(":jokes")) в файл build.gradle.kts
-12.4 Удалим файл Main в модуле jokes
-12.5 Перенесём файлы Calculator, Adder, Joke, Types, Util в модуль jokes.
+12.4 Добавим зависимости в структуре проекта
+12.5 Удалим файл Main в модуле jokes
+12.6 Перенесём файлы Calculator, Adder, Joke, Types, Util в модуль jokes.
 13. Запустим метод main в файле ConsoleApp
 
 Работа выполнена.

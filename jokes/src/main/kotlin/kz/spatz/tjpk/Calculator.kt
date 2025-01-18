@@ -1,4 +1,4 @@
-package kz.spatz.tjpk
+ package kz.spatz.tjpk
 
 class Calculator() {
     private val adder = Array(types.size) {

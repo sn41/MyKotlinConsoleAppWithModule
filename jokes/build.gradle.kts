@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.1.0"
+    kotlin("jvm")
 }
 
 group = "kz.spatz.tjpk"
@@ -11,8 +11,6 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-
-    implementation(project(":jokes"))
 }
 
 tasks.test {

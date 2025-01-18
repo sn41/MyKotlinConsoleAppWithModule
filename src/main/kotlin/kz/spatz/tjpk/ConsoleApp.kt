@@ -4,10 +4,12 @@ import java.io.File
 
 fun main() {
     val file = File("src/main/resources/jokes.txt")
-    val jokes = readJokes(file)
-    val type = runJokeTest(jokes)
-    println("Формула вашего характера = $type !!!!")
+    readJokes(file)
 }
+
+//val jokes = readJokes(file)
+//val type = runJokeTest(jokes)
+//println("Формула вашего характера = $type !!!!")
 
 fun runJokeTest(jokes: List<Joke>): String {
     val calculator = Calculator()
